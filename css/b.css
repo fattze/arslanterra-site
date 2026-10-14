@@ -33,7 +33,7 @@ p { text-wrap: pretty; }
 .btn:hover { transform: translateY(-3px); background: var(--sari); border-color: var(--sari); }
 .btn.cerceve { background: transparent; color: #fff; border-color: rgba(255,255,255,.6); }
 .btn.cerceve:hover { background: #fff; color: var(--ink); border-color: #fff; }
-.btn.koyu-btn { background: var(--ink); border-color: var(--ink); }
+.btn.koyu-btn { background: var(--ink); border-color: var(--ink); color: #fff; }
 .btn.koyu-btn:hover { background: #000; border-color: #000; }
 .btn svg { width: 18px; height: 18px; transition: transform .4s var(--ease); }
 .btn:hover svg { transform: translateX(4px); }
@@ -215,8 +215,7 @@ dialog#film-pencere::backdrop { background: rgba(6,12,24,.88); backdrop-filter: 
 .neden, .neden + .neden { padding: 28px 0; border-right: 0; }
 .il-sag .iki { grid-template-columns: 1fr; gap: 0; }
 .hero-ic { padding-bottom: 56px; }
-.oynat { bottom: auto; top: 108px; right: 20px; }
-.oynat b { display: none; }
+.oynat { display: none; }
 }
 @media (prefers-reduced-motion: reduce) {
 html { scroll-behavior: auto; }
